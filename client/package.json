@@ -3,10 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
+    "add": "^2.0.6",
+    "axios": "^0.18.0",
+    "react": "^16.6.3",
+    "react-bootstrap": "^0.32.4",
+    "react-burger-menu": "^2.5.4",
+    "react-dom": "^16.6.3",
+    "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "react-select": "^2.1.1",
+    "sweetalert2": "^7.29.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,10 +24,14 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "http://localhost:52657",
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-responsive-select": "^4.5.7"
+  }
 }
